@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git 'https://github.com/awcasella/Simple-Login-Java-MySQL.git'
+                git 'https://github.com/ram209/Simple-Login-Java-MySQL.git'
             }
          }        
        stage('Build'){
